@@ -1,24 +1,11 @@
-1. Instructors
+1. department
 
-SELECT * FROM instructors;
+SELECT * FROM department;
 
-SELECT first_name, last_name, email FROM instructors;
+SELECT deptcode FROM department;
 
-2. Courses 
+2. employee 
 
-SELECT * FROM students;
+SELECT * FROM employee;
 
-SELECT course_name, course_code, instructor_id FROM courses;
-
-3. Students 
-
-SELECT * FROM students;
-
-SELECT first_name, last_name, date_of_birth FROM students WHERE date_of_birth > '2000-01-01';
-
-4. Entollments
-
-SELECT * FROM enrollments;
-
-SELECT student_id, course_id FROM enrollments WHERE course_id = 1;
-
+SELECT name, job, salary FROM employee;
